@@ -69,6 +69,10 @@
        ;;term              ; terminals in Emacs
        ;;vterm             ; another terminals in Emacs
 
+       :checkers
+       spell          ; tasing you for misspelling mispelling
+       syntax          ; tasing you for every semicolon you forget
+
        :tools
        ;;ansible
        debugger          ; FIXME stepping through code, to help you add bugs
@@ -77,8 +81,6 @@
        editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        (eval +overlay)     ; run code, run (also, repls)
-       flycheck          ; tasing you for every semicolon you forget
-       flyspell          ; tasing you for misspelling mispelling
        ;;gist              ; interacting with github gists
        (lookup           ; helps you navigate your code and documentation
         +docsets)        ; ...or in Dash docsets locally
@@ -87,7 +89,7 @@
        magit             ; a git porcelain for Emacs
        ;;make              ; run make tasks from Emacs
        ;;pass              ; password manager for nerds
-       ;;pdf               ; pdf enhancements
+       pdf               ; pdf enhancements
        ;;prodigy           ; FIXME managing external services & code builders
        ;;rgb               ; creating color strings
        ;;terraform         ; infrastructure as code
@@ -136,7 +138,7 @@
         ;;+pomodoro        ; be fruitful with the tomato technique
         ;;+present        ; using org-mode for presentations
         )
-       ;;perl              ; write code no one else can comprehend
+       perl              ; write code no one else can comprehend
        ;;php               ; perl's insecure younger brother
        ;;plantuml          ; diagrams for confusing people more
        ;;purescript        ; javascript, but functional
