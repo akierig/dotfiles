@@ -15,10 +15,10 @@ function vim
   command nvim $argv
 end
 function less
-  command $PAGER $argv
+  command bat -p $argv
 end
 function more
-  command $PAGER $argv
+  command bat -p $argv
 end
 function ls
   command lsd $argv
