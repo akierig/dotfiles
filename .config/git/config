@@ -2,7 +2,7 @@
 	smtpencryption = tls
 	smtpserver = smtp.fastmail.com
 	smtpuser = ben@gbmor.dev
-	smtpserverport = 465
+	smtpserverport = 587
 	annotate = yes
 [user]
     name = "Ben Morrison"
@@ -15,3 +15,7 @@
 	protocol = ssh
 [sequence]
 	editor = interactive-rebase-tool
+[credential]
+    helper = cache --timeout 3600
+[pull]
+	rebase = false

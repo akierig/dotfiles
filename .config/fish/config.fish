@@ -70,6 +70,12 @@ end
 function devk
   cd ~/dev/keybase
 end
+function devs
+  cd ~/dev/srht
+end
+function devsg
+  cd ~/dev/srht/gbmor
+end
 function devt
   cd ~/dev/tmp
 end
